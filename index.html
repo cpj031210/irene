@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Personal Website</title>
+  <meta
+    name="description"
+    content="Personal website of a law student. Includes introduction and contact information."
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#hero" class="site-logo">Your Name</a>
+
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        aria-label="Toggle navigation"
+        aria-expanded="false"
+        aria-controls="siteNav"
+      >
+        <span class="menu-toggle-bar"></span>
+        <span class="menu-toggle-bar"></span>
+        <span class="menu-toggle-bar"></span>
+      </button>
+
+      <nav class="site-nav" id="siteNav">
+        <a href="#hero" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-section" id="hero">
+      <div class="container hero-content">
+        <p class="hero-label">Law Student</p>
+        <h1 class="hero-title">Your Name</h1>
+        <p class="hero-description">
+          A law student interested in legal research, clear communication, and thoughtful problem-solving.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#about" class="button button-primary">View Work</a>
+          <a href="#contact" class="button button-secondary">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section section-block" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">About</p>
+          <h2 class="section-title">Who I Am</h2>
+        </div>
+
+        <div class="content-card">
+          <p class="about-text">
+            Hello, I’m Your Name, a law student with an interest in legal analysis, structured writing,
+            and public issues. I value clarity, logic, and communication, and I hope to keep building
+            my skills through study, discussion, and practical experience.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section section-block" id="contact">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">Contact</p>
+          <h2 class="section-title">Get In Touch</h2>
+        </div>
+
+        <div class="contact-grid">
+          <a href="mailto:your.email@example.com" class="contact-card">
+            <span class="contact-type">Email</span>
+            <span class="contact-value">your.email@example.com</span>
+          </a>
+
+          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" class="contact-card">
+            <span class="contact-type">GitHub</span>
+            <span class="contact-value">github.com/yourusername</span>
+          </a>
+
+          <a href="https://www.linkedin.com/in/yourlinkedin/" target="_blank" rel="noopener noreferrer" class="contact-card">
+            <span class="contact-type">LinkedIn</span>
+            <span class="contact-value">linkedin.com/in/yourlinkedin</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
